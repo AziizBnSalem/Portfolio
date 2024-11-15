@@ -1,0 +1,13 @@
+// File: src/styles/globals.scss
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// Custom SCSS styles
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply antialiased;
+}

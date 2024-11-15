@@ -1,0 +1,71 @@
+// Global styles
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+}
+
+// Hero Section
+#hero {
+  .hero-text {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+
+  .btn-primary {
+    background-color: #1E40AF;
+    color: #fff;
+    &:hover {
+      background-color: #2563EB;
+    }
+  }
+}
+
+// Skills Section
+.skill-item {
+  .skill-name {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+  }
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+}
+
+// Project Section
+.project-card {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 1rem;
+  transition: all 0.3s ease;
+  &:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05);
+  }
+}
+
+// Footer Section
+footer {
+  background-color: #111;
+  color: #fff;
+
+  a {
+    color: #fff;
+    &:hover {
+      color: #ddd;
+    }
+  }
+}
