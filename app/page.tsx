@@ -18,7 +18,7 @@ export default function Home() {
               <div className="absolute -bottom-2 -right-2 bg-blue-500 text-white p-2 rounded-full">
                 <span className="block w-4 h-4 rounded-full bg-green-400"></span>
               </div>
-            </div>
+            </div> 
 
             <div className="max-w-3xl space-y-4">
               <h1 className="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white">
